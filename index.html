@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司入口导航 | Company Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-4xl w-full bg-white rounded-2xl shadow-xl overflow-hidden">
+        <!-- Header -->
+        <div class="bg-blue-600 p-8 text-center text-white">
+            <h1 class="text-3xl font-bold mb-2">Quaphase Internal System</h1>
+            <p class="text-blue-100">请点击下方图标进入对应的系统</p>
+        </div>
+
+        <!-- Links Grid -->
+        <div class="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Quaphase Gmail -->
+            <a href="https://mail.google.com/" target="_blank" class="card bg-gray-50 rounded-xl p-6 flex flex-col items-center justify-center text-center transition-all duration-300 border border-gray-100 group">
+                <div class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-2xl mb-4 group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-800">Quaphase Gmail</h2>
+                <p class="text-sm text-gray-500 mt-2">公司官方邮箱登录</p>
+            </a>
+
+            <!-- NingJi Opening Workflow -->
+            <a href="https://lists.live.com/:l:/g/personal/9784d6b5ea454f26/JAKS13oLJUXzSJH0-qBPJhziAa8zh1bzmbN7ywnlRa3Llrg?e=nKddim" target="_blank" class="card bg-gray-50 rounded-xl p-6 flex flex-col items-center justify-center text-center transition-all duration-300 border border-gray-100 group">
+                <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-2xl mb-4 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                    <i class="fa-brands fa-microsoft"></i>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-800">NingJi Opening Workflow</h2>
+                <p class="text-sm text-gray-500 mt-2">业务开启流程与文档</p>
+            </a>
+
+            <!-- Shared Drive -->
+            <a href="https://drive.google.com/" target="_blank" class="card bg-gray-50 rounded-xl p-6 flex flex-col items-center justify-center text-center transition-all duration-300 border border-gray-100 group">
+                <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl mb-4 group-hover:bg-green-600 group-hover:text-white transition-colors duration-300">
+                    <i class="fa-brands fa-google-drive"></i>
+                </div>
+                <h2 class="text-lg font-semibold text-gray-800">Shared Drive</h2>
+                <p class="text-sm text-gray-500 mt-2">NingJi Google 共享云盘</p>
+            </a>
+
+            <!-- Aspire -->
+            <a href="https://app.aspireapp.com/" target="_blank" class="card bg-gray-50 rounded-xl p-6 flex flex-col items-center justify-center text-center transition-all duration-300 border border-gray-100 group">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-sm border border-gray-200 group-hover:shadow-md transition-all duration-300 group-hover:scale-110 overflow-hidden">
+                    <img src="https://logo.clearbit.com/aspireapp.com" onerror="this.src='https://www.google.com/s2/favicons?domain=aspireapp.com&sz=128'" alt="Aspire Logo" class="w-10 h-10 object-contain">
+                </div>
+                <h2 class="text-lg font-semibold text-gray-800">Aspire</h2>
+                <p class="text-sm text-gray-500 mt-2">Aspire 财务系统登录</p>
+            </a>
+
+            <!-- Osome -->
+            <a href="https://my.osome.com/?branch=SG" target="_blank" class="card bg-gray-50 rounded-xl p-6 flex flex-col items-center justify-center text-center transition-all duration-300 border border-gray-100 group">
+                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-sm border border-gray-200 group-hover:shadow-md transition-all duration-300 group-hover:scale-110 overflow-hidden">
+                    <img src="https://logo.clearbit.com/osome.com" onerror="this.src='https://www.google.com/s2/favicons?domain=osome.com&sz=128'" alt="Osome Logo" class="w-10 h-10 object-contain">
+                </div>
+                <h2 class="text-lg font-semibold text-gray-800">Osome</h2>
+                <p class="text-sm text-gray-500 mt-2">Osome 企业服务登录</p>
+            </a>
+
+        </div>
+        
+        <!-- Footer -->
+        <div class="bg-gray-50 p-4 text-center border-t border-gray-100">
+            <p class="text-sm text-gray-500">© 2026 Quaphase / NingJi. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
