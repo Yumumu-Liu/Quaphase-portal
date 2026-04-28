@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Quaphase-portal/Smart_Ledger/frontend/dist/',
+  base: '/Quaphase-portal/smart-ledger/',
   plugins: [
     tailwindcss(),
     react()
