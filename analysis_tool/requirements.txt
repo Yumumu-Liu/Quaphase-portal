@@ -1,0 +1,6 @@
+yfinance
+deep-translator
+pandas
+numpy
+mplfinance
+matplotlib
